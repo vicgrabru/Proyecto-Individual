@@ -1,0 +1,12 @@
+inventor.chimpum-dashboard.form.title = Métricas de Chimpumps
+inventor.chimpum-dashboard.form.chimpum-ratio = Porcentaje de artefactos con chimpumps asociados
+
+inventor.chimpum-dashboard.form.average-budget = Presupuesto medio de chimpumps por divisa
+inventor.chimpum-dashboard.form.deviation-budget = Desviación típica del presupuesto de chimpumps por divisa
+inventor.chimpum-dashboard.form.minimum-budget = Presupuesto mínimo de chimpumps por divisa
+inventor.chimpum-dashboard.form.maximum-budget = Presupuesto máximo de chimpumps por divisa
+
+inventor.chimpum-dashboard.form.average-budget-caption = El presupuesto medio de chimpumps agrupado por divisa
+inventor.chimpum-dashboard.form.deviation-budget-caption = La desviación típica del presupuesto de chimpumps agrupado por divisa
+inventor.chimpum-dashboard.form.minimum-budget-caption = El presupuesto mínimo de chimpumps agrupado por divisa
+inventor.chimpum-dashboard.form.maximum-budget-caption = El presupuesto máximo de chimpumps agrupado por divisa

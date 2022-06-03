@@ -1,0 +1,98 @@
+# menu-es.i18n
+#
+# Copyright (C) 2012-2022 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+﻿# master.menu #################################################################
+
+master.menu.home = Inicio
+master.menu.sign-up = Registrarse
+master.menu.sign-in = Entrar
+master.menu.sign-out = Salir
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anónimo
+master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-link-juacasben = 28844948G: Casamitjana Benitez, Juan Jose
+master.menu.anonymous.77929136F = 77929136F: Talero Frías, Juan Manuel
+master.menu.anonymous.favourite-link-andvarbay = 07269180F: Vargas Bayon, Andres
+master.menu.anonymous.favourite-link-danenrdia = 17480901G: Enríquez Díaz, Daniel
+master.menu.anonymous.favourite-link.victor = 32081538B: Gravan, Victor
+
+# master.menu.any #######################################################
+
+master.menu.any = Todos 
+master.menu.any.toolkits = Toolkits publicadas 
+master.menu.any.components = Componentes publicados 
+master.menu.any.tools = Herramientas publicadas 
+master.menu.any.chirps = Mensajes recientes 
+master.menu.any.user-accounts = Usuarios
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Autenticados 
+master.menu.authenticated.announcements = Anuncios rencientes
+master.menu.authenticated.system-configuration = Configuracion
+
+# master.menu.inventor #######################################################
+
+master.menu.inventor = Inventores 
+master.menu.inventor.toolkits = Mis caja de herramientas 
+master.menu.inventor.components = Mis componentes
+master.menu.inventor.tools = Mis herramientas
+master.menu.inventor.patronage-reports = Mis reportes de patrocinios
+master.menu.inventor.patronage = Mis patrocinios
+master.menu.inventor.chimpum-dashboard = Dashboard de chimpum
+
+# master.menu.patron #######################################################
+
+master.menu.patron = Patrocinadores 
+master.menu.patron.patronage = Mis patrocinios
+master.menu.patron.patronage-report = Mis reportes de patrocinios
+master.menu.patron.patron-dashboard = Dashboard de patrocinadores
+master.menu.patron.chimpum-dashboard = Dashboard de chimpum
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrador
+master.menu.administrator.dashboard = Panel de indicadores
+master.menu.administrator.user-accounts = Cuentas de usuario
+master.menu.administrator.announcement.create = Crear un nuevo anuncio
+master.menu.administrator.populate-initial = Poblar BD (inicial)
+master.menu.administrator.populate-sample = Poblar BD (ejemplos)
+master.menu.administrator.shut-down = Parar el sistema
+master.menu.administrator.system-configuration = Configuracion
+master.menu.administrator.admin-dashboard = Dashboard de administradores
+
+# master.menu.provider ########################################################
+
+master.menu.provider = Proveedor
+master.menu.provider.favourite-link = Enlace favorito
+
+# master.menu.consumer ##########################################################
+
+master.menu.consumer = Consumidor
+master.menu.consumer.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-link-juacasben = 28844948G: Casamitjana Benitez, Juan Jose
+master.menu.anonymous.favourite-link-serlopdia = 15412769D: López Díaz, Sergio
+master.menu.anonymous.favourite-link-danenrdia = 17480901G: Enríquez Díaz, Daniel
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Cuenta
+master.menu.user-account.authenticated.announcement.list = Lista de anuncios
+master.menu.user-account.general-data = Datos generales
+master.menu.user-account.provider = Datos de proveedor
+master.menu.user-account.become-provider = Hazte proveedor
+master.menu.user-account.consumer = Datos de consumidor
+master.menu.user-account.become-consumer = Hazte consumidor
+master.menu.user-account.become-patron = Hazte patrocinador
+master.menu.user-account.patron = Datos de patrocinador
+master.menu.user-account.become-inventor = Hazte inventor
+master.menu.user-account.inventor = Datos de inventor

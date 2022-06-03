@@ -1,0 +1,36 @@
+administrator.admin-dashboard.form.components = Component Metrics
+administrator.admin-dashboard.form.tools = Tools Metrics
+administrator.admin-dashboard.form.patronages = Patronages Metrics
+
+administrator.admin-dashboard.form.title = Administrator Metrics
+administrator.admin-dashboard.form.count-components = Total Number of Components
+administrator.admin-dashboard.form.average-components = Average retail price of components by technology and currency
+administrator.admin-dashboard.form.deviation-components = Deviation retail price of components by technology and currency
+administrator.admin-dashboard.form.minimum-components = Minimum retail price of components by technology and currency
+administrator.admin-dashboard.form.maximum-components = Maximum retail price of components by technology and currency
+administrator.admin-dashboard.form.count-tools = Total Number of Tools
+administrator.admin-dashboard.form.average-tools = Average retail price of tools by currency
+administrator.admin-dashboard.form.deviation-tools = Deviation retail price of tools by currency
+administrator.admin-dashboard.form.minimum-tools = Minimum retail price of tools by currency
+administrator.admin-dashboard.form.maximum-tools = Maximum retail price of tools by currency
+administrator.admin-dashboard.form.count-patronages = Total number of patronages of status
+administrator.admin-dashboard.form.average-patronages = Average budget of patronages of status
+administrator.admin-dashboard.form.deviation-patronages = Deviation budget of patronages of status
+administrator.admin-dashboard.form.minimum-patronages = Minimum budget of patronages of status
+administrator.admin-dashboard.form.maximum-patronages = Maximum budget of patronages of status
+
+administrator.admin-dashboard.form.count-components-caption = The total number of components
+administrator.admin-dashboard.form.average-components-caption = The average retail price of all the components grouped by technology and currency
+administrator.admin-dashboard.form.deviation-components-caption = The standard deviation of the retail price of all the components grouped by technology and currency
+administrator.admin-dashboard.form.minimum-components-caption = The minimum retail price of all the components grouped by technology and currency
+administrator.admin-dashboard.form.maximum-components-caption = The maximum retail price of all the components grouped by technology and currency
+administrator.admin-dashboard.form.count-tools-caption = The total number of tools
+administrator.admin-dashboard.form.average-tools-caption = The average retail price of all the tools grouped by currency
+administrator.admin-dashboard.form.deviation-tools-caption = The standard deviation of the retail price of all the tools grouped by currency
+administrator.admin-dashboard.form.minimum-tools-caption = The minimum retail price of all the tools grouped by currency
+administrator.admin-dashboard.form.maximum-tools-caption = The maximum retail price of all the tools grouped by currency
+administrator.admin-dashboard.form.count-patronages-caption = The total number of patronages grouped by status
+administrator.admin-dashboard.form.average-patronages-caption = The average budget of all the patronages grouped by status
+administrator.admin-dashboard.form.deviation-patronages-caption = The standard deviation of budget of all the patronages grouped by status
+administrator.admin-dashboard.form.minimum-patronages-caption = The minimum budget of all the patronages grouped by status
+administrator.admin-dashboard.form.maximum-patronages-caption = The maximum budget of all the patronages grouped by status

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>555</x>
+      <y>110</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Administrator
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>555</x>
+      <y>65</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Anonymous
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>555</x>
+      <y>150</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Authenticated
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>80</y>
+      <w>50</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>115</y>
+      <w>50</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;190.0;10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>160</y>
+      <w>50</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>485</x>
+      <y>210</y>
+      <w>75</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+AbstractUserRole
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>315</x>
+      <y>50</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Datatype&gt;&gt;
+DefaultUserIdentity
+--
++ name: String {NotBlank}
++ surname: String {♫NotBlank}
++ email: String {NotBlank, Email}
++ / fullName: String {NotBlank}
+bg=yellow
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>315</x>
+      <y>165</y>
+      <w>110</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Datatype&gt;&gt;
+UserIdentity
+--
+bg=green
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>105</y>
+      <w>15</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>620</x>
+      <y>270</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Role&gt;&gt;
+Inventor
+--
++ company: String {NotBlank, Length(0,100)}
++ statement: String {NotBlank, Length(0,255)}
++ info: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>305</x>
+      <y>235</y>
+      <w>225</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>430.0;10.0;430.0;30.0;10.0;30.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>235</x>
+      <y>270</y>
+      <w>150</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Role&gt;&gt;
+Patron
+--
++ company: String {NotBlank, Length(0,100)}
++ statement: String {NotBlank, Length(0,255)}
++ info: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>235</y>
+      <w>190</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;360.0;30.0;360.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>810</x>
+      <y>165</y>
+      <w>225</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Item
+--
++ type: ItemType {NotNull}
++ name: String {NotBlank, Length(0,100)}
++ code: String {NotBlank, Pattern(^[A-Z]{3}-[0-9]{3}(-[A-Z])?$), Unique}
++ technology: String {NotBlank, Length(0,100)}
++ description: String {NotBlank, Length(0,255)}
++ retailPrice: Money
++ optionalLink: String {URL}
++ published: boolean
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1070</x>
+      <y>75</y>
+      <w>210</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Announcement
+--
++ creationMoment: Date {NotNull, Past, Temporal(TIMESTAMP)}
++ title: String {NotBlank, Length(0,100)}
++ body: String {NotBlank, Length(0,255)}
++ critical: boolean
++ optionalLink: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>120</y>
+      <w>85</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+Status
+--
++ PROPOSED
++ ACCEPTED
++ DENIED
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>310</y>
+      <w>120</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Quantity
+--
++ amount: int {Min(1)}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>970</x>
+      <y>335</y>
+      <w>75</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>910</x>
+      <y>250</y>
+      <w>25</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>60</y>
+      <w>85</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Enum&gt;&gt;
+ItemType
+--
++ COMPONENT
++ TOOL
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>390</x>
+      <y>410</y>
+      <w>230</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Patronage
+--
++ status: Status {NotNull}
++ code: String {NotBlank, Pattern(^[A-Z]{3}-[0-9]{3}(-[A-Z])?$), Unique}
++ legalStuff: String {NotBlank, Length(0,100)}
++ budget: Money
++ creationDate: Date {NotNull, Past, Temporal(TIMESTAMP)}
++ startDate: Date {NotNull, Temporal(TIMESTAMP)}
++ finishDate: Date {NotNull, Temporal(TIMESTAMP)}
++ published: boolean
++ optionalLink: String {URL}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>305</x>
+      <y>315</y>
+      <w>95</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;310.0;170.0;310.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>615</x>
+      <y>315</y>
+      <w>100</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;310.0;10.0;310.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>600</y>
+      <w>220</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+PatronageReport
+--
++ creationDate: Date {NotNull, Past, Temporal(TIMESTAMP)}
++ memorandum: String {NotBlank, Length(0,255)}
++ optionalLink: String {URL}
++ serialCode: String {NotBlank}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>495</x>
+      <y>505</y>
+      <w>25</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>820</x>
+      <y>75</y>
+      <w>210</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Chirp
+--
++ creationMoment: Date {NotNull, Past, Temporal(TIMESTAMP)}
++ title: String {NotBlank, Length(0,100)}
++ author: String {NotBlank, Length(0,100)}
++ body: String {NotBlank, Length(0,255)}
++ email: String {Email}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>505</y>
+      <w>315</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+AdminDashboard
+--
++ totalNumberComponents: int
++ averageRetailPriceComponentsByTechnologyAndCurrency: Map&lt;Pair&lt;String, String&gt;, Money&gt;
++ deviationRetailPriceComponentsByTechnologyAndCurrency: Map&lt;Pair&lt;String, String&gt;, Money&gt;
++ minimumRetailPriceComponentsByTechnologyAndCurrency: Map&lt;Pair&lt;String, String&gt;, Money&gt;
++ maximumRetailPriceComponentsByTechnologyAndCurrency: Map&lt;Pair&lt;String, String&gt;, Money&gt;
++ totalNumberTools: int
++ averageRetailPriceToolsByCurrency: Map&lt;String, Money&gt;
++ deviationRetailPriceToolsByCurrency: Map&lt;String, Money&gt;
++ minimumRetailPriceToolsByCurrency: Map&lt;String, Money&gt;
++ maximumRetailPriceToolsByCurrency: Map&lt;String, Money&gt;
++ totalNumberPatronagesOfStatus: Map&lt;Status, Integer&gt;
++ averageBudgetPatronagesOfStatus: Map&lt;Status, Money&gt;
++ deviationBudgetPatronagesOfStatus: Map&lt;Status, Money&gt;
++ minimumBudgetPatronagesOfStatus: Map&lt;Status, Money&gt;
++ maximumBudgetPatronagesOfStatus: Map&lt;Status, Money&gt;
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>420</y>
+      <w>280</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Form&gt;&gt;
+PatronDashboard
+--
++ totalNumberPatronagesOfStatus: int
++ averageBudgetPatronagesOfStatusByCurrency: Map&lt;Pair&lt;Status, String&gt;, Money&gt;
++ deviationBudgetPatronagesOfStatusByCurrency: Map&lt;Pair&lt;Status, String&gt;, Money&gt;
++ minimumBudgetPatronagesOfStatusByCurrency: Map&lt;Pair&lt;Status, String&gt;, Money&gt;
++ maximumBudgetPatronagesOfStatusByCurrency: Map&lt;Pair&lt;Status, String&gt;, Money&gt;
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1105</x>
+      <y>200</y>
+      <w>180</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>retailPrice debe ser mayor o igual a cero si type es
+TOOL y mayor estricto a 0 si type es COMPONENT
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>205</y>
+      <w>85</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>205</y>
+      <w>80</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0;140.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1035</x>
+      <y>290</y>
+      <w>225</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Toolkit
+--
++ code: String {NotBlank, Pattern(^[A-Z]{3}-[0-9]{3}(-[A-Z])?$), Unique}
++ title: String {NotBlank, Length(0,100)}
++ description: String {NotBlank, Length(0,255)}
++ assemblyNotes: String {NotBlank, Length(0,255)}
++ optionalLink: String {URL}
++ published: boolean
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>545</x>
+      <y>540</y>
+      <w>155</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>budget debe ser estrictamente mayor de cero
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>595</x>
+      <y>505</y>
+      <w>15</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1185</x>
+      <y>420</y>
+      <w>160</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+SystemConfiguration
+--
++ acceptedCurrencies: String {NotBlank}
++ defaultSystemCurrency: String {NotBlank}
++ strongSpamTerms: String {NotBlank}
++ strongSpamThreshold: Double {Range(0,1)}
++ weakSpamTerms: String {NotBlank}
++ weakSpamThreshold: Double {Range(0,1)}
+bg=green</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>315</y>
+      <w>400</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-x
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;170.0;760.0;170.0;760.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>555</x>
+      <y>25</y>
+      <w>50</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Any
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>35</y>
+      <w>50</w>
+      <h>185</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;350.0;10.0;10.0;80.0;10.0</additional_attributes>
+  </element>
+</diagram>

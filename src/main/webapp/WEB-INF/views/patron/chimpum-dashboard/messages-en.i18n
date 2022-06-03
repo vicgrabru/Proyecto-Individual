@@ -1,0 +1,12 @@
+patron.chimpum-dashboard.form.title = Chimpumps Metrics
+patron.chimpum-dashboard.form.chimpum-ratio = The percentage of artefacts with associated chimpumps
+
+patron.chimpum-dashboard.form.average-budget = Average budget of chimpumps by currency
+patron.chimpum-dashboard.form.deviation-budget = Deviation of budgets of chimpumps by currency
+patron.chimpum-dashboard.form.minimum-budget = Minimum budget of chimpumps by currency
+patron.chimpum-dashboard.form.maximum-budget = Maximum budget of chimpumps by currency
+
+patron.chimpum-dashboard.form.average-budget-caption = The average budget of chimpumps grouped by currency
+patron.chimpum-dashboard.form.deviation-budget-caption = The standard deviation of budgets of chimpumps grouped by currency
+patron.chimpum-dashboard.form.minimum-budget-caption = The minimum budget of chimpumps grouped by currency
+patron.chimpum-dashboard.form.maximum-budget-caption = The maximum budget of chimpumps grouped by currency
